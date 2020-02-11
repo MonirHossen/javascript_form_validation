@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-2 header ">
+
+        </div>
+        <div class="col-10 header">
+
+        </div>
+
+    </div>
+    <div class="row" >
+        <div  class="col-12 menu" id="menu" >
+            <ul id="mainUl">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfoilo</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Geallary</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-2 main-container ">
+
+
+        </div>
+        <div class="col-10 main-container">
+
+            <form action="" method="post" id="form">
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" id="firstName">
+                            <span id="firstNameError" style="color: red;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" id="lastName">
+                            <span id="lastNameError" style="color: red;"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Email Address</td>
+                        <td>
+                        <input type="email" id="emailAddress">
+                        <span id="emailAddressError" style="color: red;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" id="password">
+                            <input type="checkbox" id="showhide">Show Password
+                            <span id="passwordError" style="color: red;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>
+                            <input type="password" id="confirmPassword">
+                            <span id="confirmPasswordError" style="color: red;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender Info</td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                            <span id="genderError" style="color: red;"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>District Name*</td>
+                        <td>
+                        <select name="" id="district">
+                            <option value=" ">-----Select District Name-----</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Tangail">Tangail</option>
+                            <option value="Gazipur">Gaziput</option>
+                            <option value="Manikgong">Manikgong</option>
+                            <option value="Narayngong">Narayangong</option>
+                        </select>
+                        <span id="districtError" style="color: red;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="btn" id="btn" value="Submit">
+                        </td>
+                    </tr>
+
+
+                </table>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-12 footer ">
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="jquery-3.3.1.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
